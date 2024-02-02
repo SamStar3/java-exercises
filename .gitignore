@@ -1,0 +1,9 @@
+**/*.class
+*.log
+*.jar
+*.war
+.metadata/
+**/*.classpath
+**/*.project
+**/*.prefs
+**/.settings/
