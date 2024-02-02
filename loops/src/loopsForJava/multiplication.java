@@ -10,10 +10,10 @@ public class multiplication {
 		Scanner t = new Scanner(System.in);
 		int n = s.nextInt();
 		int r = t.nextInt();
-		int j =1;
-		for (int i= 1; i<=n;i++) {
-			j = i*r;
-			System.out.println(i + "*" +r+"="+j);
+		int j = 1;
+		for (int i = 1; i <= n; i++) {
+			j = i * r;
+			System.out.println(i + "*" + r + "=" + j);
 		}
 
 	}
