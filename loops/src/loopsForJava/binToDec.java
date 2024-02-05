@@ -29,7 +29,6 @@ public class binToDec {
 //		System.out.println(num4);
 		}
 		System.out.println(num5);
-
 	}
 
 }
