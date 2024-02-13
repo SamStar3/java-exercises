@@ -13,19 +13,18 @@ public class mostReturn {
 //			
 //		}
 		try {
-		Scanner s = new Scanner(System.in);
-		int givenNum = s.nextInt();
-		if (givenNum==0) {
-			System.out.println("it is not prime number ");
-		}else if (givenNum ==2 ) {
-			System.out.println("it is prime number ");
-		}else
-		if (givenNum%2==0&&givenNum%3==0) {
-			System.out.println("it is prime number");
-		}else {
-			System.out.println("it is not prime number ");
-		}
-		}catch (InputMismatchException ex) {
+			Scanner s = new Scanner(System.in);
+			int givenNum = s.nextInt();
+			if (givenNum == 0) {
+				System.out.println("it is not prime number ");
+			} else if (givenNum == 2) {
+				System.out.println("it is prime number ");
+			} else if (givenNum % 2 == 0 && givenNum % 3 == 0) {
+				System.out.println("it is prime number");
+			} else {
+				System.out.println("it is not prime number ");
+			}
+		} catch (InputMismatchException ex) {
 			System.out.println("please provide Only integer input ");
 		}
 
