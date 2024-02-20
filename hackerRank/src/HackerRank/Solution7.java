@@ -1,7 +1,6 @@
 package HackerRank;
 
 import java.util.Scanner;
-import java.util.regex.Pattern;
 
 public class Solution7 {
 
@@ -15,8 +14,8 @@ public class Solution7 {
 //			ArrayList<String> inputs = new ArrayList<>();
 
 		// Define the regular expression pattern
-		Pattern pattern = Pattern.compile(str, Pattern);
-		System.out.print(pattern);
+//		Pattern pattern = Pattern.compile(str);
+//		System.out.print(pattern);
 
 //		Matcher matcher = pattern.matcher("Valid");
 //		if (matcher.matches()) {
