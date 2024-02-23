@@ -14,7 +14,7 @@ public class naturalNum {
 			return 1;
 		} else {
 
-			return n + print(n - 1);
+			return n * print(n - 1) / 2;
 		}
 	}
 
