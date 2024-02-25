@@ -4,11 +4,7 @@ public class Solution6 {
 	int i = 0;
 
 	public boolean game(int leap, int[] gameSize) {
-		for (i = 0; i < gameSize.length; i++) {
 
-			System.out.print(leap);
-
-		}
 		return false;
 	}
 
