@@ -28,14 +28,11 @@ public class Solution7 {
 			String operation = scan.nextLine();
 			if (operation.equals("Insert")) {
 
-//				scan.nextLine();
 				String insertOperation = scan.nextLine();
 				array.add(Integer.parseInt(insertOperation.split(" ")[0]),
 						Integer.parseInt(insertOperation.split(" ")[1]));
 			}
 			if (operation.equals("Delete")) {
-//				System.out.print("Delete");
-//				scan.nextLine();
 				String insertOperation = scan.nextLine();
 				array.remove(Integer.parseInt(insertOperation.split(" ")[0]));
 			}
@@ -44,7 +41,6 @@ public class Solution7 {
 		for (int i = 0; i < array.size(); i++) {
 			System.out.print(array.get(i) + " ");
 		}
-
 	}
 
 }
