@@ -17,7 +17,6 @@ public class Solution10 {
 			pair_right[i] = s.next();
 		}
 
-		// Write your code here
 		HashSet<String> stringSet = new HashSet<>();
 		for (int i = 0; i < t; i++) {
 			stringSet.add(pair_left[i] + "," + pair_right[i]);
