@@ -3,9 +3,10 @@ package Inheri;
 public class BirdinAnimal {
 
 	static class Animal {
-		void walk() {
+		private void walk() {
 			System.out.println("I am walking");
 		}
+
 	}
 
 	static class Bird extends Animal {
@@ -17,6 +18,10 @@ public class BirdinAnimal {
 			System.out.println("I am singing");
 		}
 
+		void walk() { // override
+			super.walk();
+		}
+
 	}
 
 	public static void main(String[] args) {
@@ -24,8 +29,12 @@ public class BirdinAnimal {
 
 		Bird bird = new Bird();
 		bird.walk();
+
 		bird.fly();
 		bird.sing();
+		Animal animal = new Animal();
+		animal.walk();
+//		animal.fly();
 
 	}
 
