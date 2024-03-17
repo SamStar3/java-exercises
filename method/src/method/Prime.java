@@ -11,7 +11,7 @@ public class Prime {
 				count++;
 			}
 		}
-		System.out.println(" Total Number of Prime Numbera between 0 to 50 is " + count);
+		System.out.println("Total Number of Prime Numbera between 0 to 50 is " + count);
 
 //		System.out.println("0 is " + (isPrime(0) ? "" : " Not ") + "a Prime Number");
 //		System.out.println("1 is " + (isPrime(1) ? "" : " Not ") + "a Prime Number");
