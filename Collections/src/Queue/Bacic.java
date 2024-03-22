@@ -1,7 +1,9 @@
 package Queue;
 
+import java.util.ArrayList;
 import java.util.PriorityQueue;
 import java.util.Queue;
+import java.util.TreeSet;
 
 public class Bacic {
 
@@ -23,6 +25,17 @@ public class Bacic {
 		System.out.println(list.size());
 		System.out.println(list);
 
+		ArrayList obj = new ArrayList<>();
+		obj.add(1);
+		obj.add(2);
+		obj.add("abc");
+		System.out.print(obj);
+
+		TreeSet obj1 = new TreeSet<>();
+		obj1.add(1);
+		obj1.add(222);
+		obj.add("abcww");
+		System.out.print(obj1);
 	}
 
 }
